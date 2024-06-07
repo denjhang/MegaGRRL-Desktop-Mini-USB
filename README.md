@@ -14,8 +14,8 @@
 11. Restore natalie's silk screen art, obtained by reverse engineering the original desktop motherboard. (Actually not necessary)  
 12. Double-layer square hole IC socket ensures good connection and service life. (No need to modify the PCB)  
 13. Solder the round hole female header first in RN2 and then insert the resistor (no need to modify the PCB) to facilitate mass production and upload factory firmware.  
-14. Add my silk screen art "Denjhang's OSHW"
-
+14. Add my silk screen art "Denjhang's OSHW"  
+15. Optional self-ejecting SD card slot or self-ejecting TF card slot, more flexible to choose the type of memory card, protecting the memory card while further improving the user experience.  
 
  ## To do  
  1. Design and make the acrylic shell, which is done by Xiaohao Studio  
