@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MegaGRRLDesktop-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MegaGRRLDesktop-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "megagrrl-kicad")(type "KiCad")(uri "${KIPRJMOD}/megagrrl-kicad.kicad_sym")(options "")(descr ""))
+)

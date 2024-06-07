@@ -1,0 +1,133 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b8e07ce9-9aef-486b-a963-da9fd34ecdfc)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 04a395cb-88b1-4162-aeaa-3cf6572c3017)
+    (property "Sheetname" "Misc" (at 76.2 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Misc.kicad_sch" (at 76.2 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ce539d5-13d2-4b51-8c88-bd1468925bda)
+    (property "Sheetname" "Keys" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Keys.kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6495f127-b203-41c9-9a9c-4086fd81df41)
+    (property "Sheetname" "LED drivers" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED_drivers.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7f8a7c51-bd7e-4e59-a56f-de0905b5a4b8)
+    (property "Sheetname" "Audio" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Audio.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a8e05383-4515-4ef9-bc97-87460dbf2b98)
+    (property "Sheetname" "MCU & interface" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU_&_interface.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dc432af2-27fe-4135-a597-8488d461f914)
+    (property "Sheetname" "Sound chips & bus" (at 25.4 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sound_chips_&_bus.kicad_sch" (at 25.4 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e136aae2-e03a-4469-85c6-d81d36637ef1)
+    (property "Sheetname" "Power supply" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_supply.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MegaGRRLDesktop"
+        (path "/b8e07ce9-9aef-486b-a963-da9fd34ecdfc" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

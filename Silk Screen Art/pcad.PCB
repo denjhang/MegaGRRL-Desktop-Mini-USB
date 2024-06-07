@@ -1,0 +1,386 @@
+ACCEL_ASCII "D:\学习合集\创业 2022.6.17\生产重要资料汇总\生产PCB 工程文件 ROM PLD\MegaGRRL\megagrrl-desktop-c-master\Silk Screen Art\pcad.PCB"
+
+(asciiHeader
+  (asciiVersion 3 0)
+  (timeStamp 2024 6 7 23 33 30)
+  (program "Design Explorer 99 SE" "6.1.0")
+  (copyright "Copyright ? 2002 Altium Ltd")
+  (headerString "")
+  (fileUnits Mil)
+  (guidString "{00000000-0000-0000-0000-000000000000}")
+)
+
+(library "Library_1"
+  (padStyleDef "(Default)"
+    (holeDiam 30mil)
+    (startRange 1)
+    (endRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 60mil) (shapeHeight 60mil) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 60mil) (shapeHeight 60mil) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 60mil) (shapeHeight 60mil) )
+    (padShape (layerType Plane) (padShapeType NoConnect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0mil) (shapeHeight 0mil) )
+  )
+  (viaStyleDef "(Default)"
+    (holeDiam 28mil)
+    (startRange 1)
+    (endRange 2)
+    (viaShape (layerNumRef 1) (viaShapeType Ellipse) (shapeWidth 50mil) (shapeHeight 50mil) )
+    (viaShape (layerNumRef 2) (viaShapeType Ellipse) (shapeWidth 50mil) (shapeHeight 50mil) )
+    (viaShape (layerType Signal) (viaShapeType Ellipse) (shapeWidth 50mil) (shapeHeight 50mil) )
+    (viaShape (layerType Plane) (viaShapeType NoConnect) (shapeWidth 0.0) (shapeHeight 0.0) )
+    (viaShape (layerType NonSignal) (viaShapeType Ellipse) (shapeWidth 0mil) (shapeHeight 0mil) )
+  )
+  (textStyleDef "(Default)"
+    (font
+      (fontType Stroke)
+      (fontFamily Modern)
+      (fontFace "Quality")
+      (fontHeight 80mil) 
+      (strokeWidth 10mil) 
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "(DefaultTTF)"    
+    (font                         
+      (fontType Stroke)           
+      (fontFamily SanSerif)       
+      (fontFace "QUALITY")        
+      (fontHeight 100.0)          
+      (strokeWidth 10.0)          
+    )                             
+    (font                         
+      (fontType TrueType)         
+      (fontFamily Modern)         
+      (fontFace "Arial")          
+      (fontHeight 125.0)          
+      (strokeWidth 0.19843 mm)    
+      (fontWeight 400)            
+      (fontCharSet 0)             
+      (fontOutPrecision 7)        
+      (fontClipPrecision 32)      
+      (fontQuality 1)             
+      (fontPitchAndFamily 6)      
+    )                             
+    (textStyleAllowTType True)    
+    (textStyleDisplayTType True)  
+  )                               
+  (textStyleDef "T:H45W6"
+    (font
+      (fontType Stroke)
+      (fontFamily Modern)
+      (fontFace "Quality")
+      (fontHeight 60mil) 
+      (strokeWidth 6mil) 
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (patternDefExtended "NATALIE-MD_1"
+  (originalName "NATALIE-MD")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+      )
+      (layerContents (layerNumRef 6)
+        (attr "RefDes" "" (pt -780mil 570mil) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -780mil -597.006mil) (isVisible False) (textStyleRef "(Default)") )
+        (attr "Value" "" (pt -780mil 560mil) (isVisible True) (textStyleRef "(Default)") )
+      )
+      (layerContents (layerNumRef 7)
+      )
+    )
+  )
+  (patternDefExtended "NATALIE-ABC_1"
+  (originalName "NATALIE-ABC")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+      )
+      (layerContents (layerNumRef 6)
+        (attr "RefDes" "" (pt -718.578mil 136.081mil) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -718.578mil -194.115mil) (isVisible False) (textStyleRef "(Default)") )
+        (attr "Value" "" (pt -718.578mil 126.081mil) (isVisible True) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (patternDefExtended "NATALIE-SITE_1"
+  (originalName "NATALIE-SITE")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+      )
+      (layerContents (layerNumRef 6)
+        (attr "RefDes" "" (pt -650.25mil 133.611mil) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -650.25mil -208.396mil) (isVisible False) (textStyleRef "(Default)") )
+        (attr "Value" "" (pt -650.25mil 123.611mil) (isVisible True) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (patternDefExtended "NATALIE-HEART-FIRE_1"
+  (originalName "NATALIE-HEART-FIRE")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+      )
+      (layerContents (layerNumRef 6)
+        (attr "RefDes" "" (pt -1009.16mil 131.143mil) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -1009.16mil -217.597mil) (isVisible False) (textStyleRef "(Default)") )
+        (attr "Value" "" (pt -1009.16mil 121.143mil) (isVisible True) (textStyleRef "(Default)") )
+      )
+      (layerContents (layerNumRef 7)
+      )
+    )
+  )
+  (patternDefExtended "NATALIE-MEGAGRRL-DESKTOP_1"
+  (originalName "NATALIE-MEGAGRRL-DESKTOP")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+      )
+      (layerContents (layerNumRef 6)
+        (attr "RefDes" "" (pt -678.502mil 114.251mil) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -678.502mil -274.252mil) (isVisible False) (textStyleRef "(Default)") )
+        (attr "Value" "" (pt -678.502mil 104.251mil) (isVisible True) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (compDef "NATALIE-MD_1"
+    (originalName "NATALIE-MD")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 0)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "")
+    )
+    (attachedPattern (patternNum 1) (patternName "NATALIE-MD")
+      (numPads 0)
+      (padPinMap
+      )
+    )
+  )
+  (compDef "NATALIE-ABC_1"
+    (originalName "NATALIE-ABC")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 0)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "")
+    )
+    (attachedPattern (patternNum 1) (patternName "NATALIE-ABC")
+      (numPads 0)
+      (padPinMap
+      )
+    )
+  )
+  (compDef "NATALIE-SITE_1"
+    (originalName "NATALIE-SITE")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 0)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "")
+    )
+    (attachedPattern (patternNum 1) (patternName "NATALIE-SITE")
+      (numPads 0)
+      (padPinMap
+      )
+    )
+  )
+  (compDef "NATALIE-HEART-FIRE_1"
+    (originalName "NATALIE-HEART-FIRE")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 0)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "")
+    )
+    (attachedPattern (patternNum 1) (patternName "NATALIE-HEART-FIRE")
+      (numPads 0)
+      (padPinMap
+      )
+    )
+  )
+  (compDef "NATALIE-MEGAGRRL-DESKTOP_1"
+    (originalName "NATALIE-MEGAGRRL-DESKTOP")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 0)
+      (numParts 1)
+      (alts (ieeeAlt False) (deMorganAlt False))
+      (refDesPrefix "")
+    )
+    (attachedPattern (patternNum 1) (patternName "NATALIE-MEGAGRRL-DESKTOP")
+      (numPads 0)
+      (padPinMap
+      )
+    )
+  )
+)
+(netlist "Netlist_1"
+  (globalAttrs
+    (attr "Clearance" "10mil" (pt -0.00001 mm -0.00001 mm) (textStyleRef "(Default)") (constraintUnits mil) )
+  )
+  (compInst "U1"
+    (compRef "NATALIE-MD_1")
+    (originalName "NATALIE-MD")
+    (compValue "NATALIE-MD")
+  )
+  (compInst "U2"
+    (compRef "NATALIE-ABC_1")
+    (originalName "NATALIE-ABC")
+    (compValue "NATALIE-ABC")
+  )
+  (compInst "U3"
+    (compRef "NATALIE-SITE_1")
+    (originalName "NATALIE-SITE")
+    (compValue "NATALIE-SITE")
+  )
+  (compInst "U5"
+    (compRef "NATALIE-HEART-FIRE_1")
+    (originalName "NATALIE-HEART-FIRE")
+    (compValue "NATALIE-HEART-FIRE")
+  )
+  (compInst "U7"
+    (compRef "NATALIE-MEGAGRRL-DESKTOP_1")
+    (originalName "NATALIE-MEGAGRRL-DESKTOP")
+    (compValue "NATALIE-MEGAGRRL-DESKTOP")
+  )
+)
+(pcbDesign "PcbDesign_1"
+  (pcbDesignHeader
+    (workspaceSize 32000mil 32000mil)
+    (gridDfns
+      (grid "5mil")
+    )
+    (designInfo
+      (fieldSet "(Default)"
+        (fieldDef "Date" "2024/6/7")
+        (fieldDef "Time" "23:33:30")
+        (fieldDef "Author" "")
+        (fieldDef "Revision" "")
+        (fieldDef "Title" "")
+        (fieldDef "Approved By" "")
+        (fieldDef "Checked By" "")
+        (fieldDef "Company Name" "")
+        (fieldDef "Drawing Number" "")
+        (fieldDef "Drawn By" "")
+        (fieldDef "Engineer" "")
+      )
+    )
+    (solderSwell 4mil)
+    (pasteSwell 0mil)
+    (planeSwell 20mil)
+  )
+  (layerDef "Top Assy"
+    (layerNum 10)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Silk"
+    (layerNum 6)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Paste"
+    (layerNum 8)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Mask"
+    (layerNum 4)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Mask"
+    (layerNum 5)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Paste"
+    (layerNum 9)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Silk"
+    (layerNum 7)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Assy"
+    (layerNum 11)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Board"
+    (layerNum 3)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "MECH15"
+    (layerNum 21)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (multiLayer
+    (pattern (patternRef "NATALIE-MD_1") (refDesRef "U1") (pt 3200mil 3280mil) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "" (pt 340mil 850mil) (isVisible True) (textStyleRef "T:H45W6") )
+        (attr "Value" "" (pt 140mil 617.5mil) (isVisible False) (textStyleRef "T:H45W6") )
+      )
+    )
+    (pattern (patternRef "NATALIE-ABC_1") (refDesRef "U2") (pt 3650mil 2205mil) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "" (pt -10mil 117.5mil) (isVisible True) (textStyleRef "T:H45W6") )
+        (attr "Value" "" (pt -10mil 187.5mil) (isVisible False) (textStyleRef "T:H45W6") )
+      )
+    )
+    (pattern (patternRef "NATALIE-SITE_1") (refDesRef "U3") (pt 2180mil 2450mil) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "" (pt -70mil 117.5mil) (isVisible True) (textStyleRef "T:H45W6") )
+        (attr "Value" "" (pt -70mil 187.5mil) (isVisible False) (textStyleRef "T:H45W6") )
+      )
+    )
+    (pattern (patternRef "NATALIE-HEART-FIRE_1") (refDesRef "U5") (pt 3250mil 4585mil) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "" (pt 110mil 117.5mil) (isVisible True) (textStyleRef "T:H45W6") )
+        (attr "Value" "" (pt 110mil 187.5mil) (isVisible False) (textStyleRef "T:H45W6") )
+      )
+    )
+    (pattern (patternRef "NATALIE-MEGAGRRL-DESKTOP_1") (refDesRef "U7") (pt 3565mil 1700mil) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "" (pt 40mil 97.5mil) (isVisible True) (textStyleRef "T:H45W6") )
+        (attr "Value" "" (pt 40mil 167.5mil) (isVisible False) (textStyleRef "T:H45W6") )
+      )
+    )
+  )
+  (layerContents (layerNumRef 3)
+    (line (pt 1505mil 5442mil) (pt 5442mil 5442mil) (width 10mil) )
+    (line (pt 5442mil 1505mil) (pt 5442mil 5442mil) (width 10mil) )
+    (line (pt 1505mil 1505mil) (pt 5442mil 1505mil) (width 10mil) )
+    (line (pt 1505mil 1505mil) (pt 1505mil 5442mil) (width 10mil) )
+  )
+  (layerContents (layerNumRef 21)
+    (line (pt 3473.49mil 3473.49mil) (pt 3473.51mil 3473.51mil) (width 0.1mil) )
+  )
+)
