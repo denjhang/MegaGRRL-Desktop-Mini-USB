@@ -1,13 +1,16 @@
 # MegaGRRL-Desktop-Mini-USB
- I have been using the desktop version of MegaGRRL for 4 years. As my PCB drawing skills improve, I have the confidence to realize all my ideas and changes. This version is based on the Type-C version and includes a lot of practical modifications.
+ I have been using the desktop version of MegaGRRL for 4 years. As my PCB drawing skills improve, I have the confidence to realize all my ideas and changes. This version is based on the Type-C version and includes a lot of practical modifications.  
+The latest version: MegaGRRL Desktop DJ V0.5.  
+It has been hardware verified and can be used.  
 ## Improvements of Type-C version motherboard:  
 1. Use CH340C to replace CH340G to save crystal  
 2. Use 2SC1815 to replace diode to get full CH340 serial port function (SPFM Lite compatibility)  
 3. PCA9634D is difficult to buy, replaced with PCA9634PW.  
-4. Use Type-C to replace USB-B.  
+4. Use Type-C to replace USB-B.
+5. Remaining issue: The solder pad of the 3.5mm headphone jack is too small.  
  ## Improvement Details  
 1. Delete the 7805, 78M33, and other antique LDO step-down chips, as well as the huge heat sink, which are inefficient and generate a lot of heat. I used a newly designed SPFM Lite power supply circuit to replace it.  
-2. Use an isolated voltage regulator module such as IB0905/0505S to achieve step-down/regulation, so the PCB currently supports 5V or 9V input, depending on the model of the voltage regulator module. B0905/0505 can be easily obtained on AliExpress. These voltage regulator modules work well on SPFM Lite, with very little power supply noise, which can further improve the sound quality.
+2. Use an isolated voltage regulator module such as IB0905/0505S to achieve step-down/regulation, so the PCB currently supports 5V or 9V input, depending on the model of the voltage regulator module. B0905/0505 can be easily obtained on AliExpress. These voltage regulator modules work well on SPFM Lite, with very little power supply noise, which can further improve the sound quality.(Outdated)  
 3. Delete MOSFETs such as IRF9530, which are huge and too retro.  
 4. Use F0805 to protect the power circuit.  
 5. Use a strong PS-22E05 (A04) self-locking switch to replace the original small switch to extend the life of the power button.  
@@ -21,10 +24,10 @@
 13. Solder the round hole female header first in RN2 and then insert the resistor (no need to modify the PCB) to facilitate mass production and upload factory firmware.  
 14. Add my silk screen art "Denjhang's OSHW"  
 15. Optional self-ejecting SD card slot or self-ejecting TF card slot, more flexible to choose the type of memory card, protecting the memory card while further improving the user experience.  
-
+16. Use "Mini560" high efficiency DC-DC step-down module to replace B0905/0505, it works very well so far, supports 9/12V input, and generates almost no heat. Mini560 can be easily purchased at Alex and is cheap.
  ## To do  
- 1. Design and make the acrylic shell, which is done by Xiaohao Studio  
-2. Design a new MegaGRRL-modular motherboard to completely separate the data and analog lines and reduce interference noise.  
-3. USB/DC dual power supply, refer to SPFM Lite circuit  
-4. Compatible with RE:Birth module.  
-5. Add battery interface.  
+1. Design and make the acrylic shell, which is done by Xiaohao Studio (completed)  
+2. Design a new MegaGRRL-modular motherboard to completely separate the data and analog lines and reduce interference noise. (completed)  
+3. USB/DC dual power supply, refer to SPFM Lite circuit (completed)  
+4. Compatible with RE:Birth module. (completed)  
+5. Add battery interface. (completed)  
