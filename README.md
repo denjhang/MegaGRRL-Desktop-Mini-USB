@@ -8,7 +8,7 @@ It has been hardware verified and can be used.
 3. PCA9634D is difficult to buy, replaced with PCA9634PW.  
 4. Use Type-C to replace USB-B.
 5. Remaining issue: The solder pad of the 3.5mm headphone jack is too small.  
- ## Details of improvements to my version.   
+ ## Details of improvements to my version :   
 1. Delete the 7805, 78M33, and other antique LDO step-down chips, as well as the huge heat sink, which are inefficient and generate a lot of heat. I used a newly designed SPFM Lite power supply circuit to replace it.  
 2. Use an isolated voltage regulator module such as IB0905/0505S to achieve step-down/regulation, so the PCB currently supports 5V or 9V input, depending on the model of the voltage regulator module. B0905/0505 can be easily obtained on AliExpress. These voltage regulator modules work well on SPFM Lite, with very little power supply noise, which can further improve the sound quality.(Outdated)  
 3. Delete MOSFETs such as IRF9530, which are huge and too retro.  
