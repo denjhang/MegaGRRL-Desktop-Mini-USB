@@ -1,5 +1,5 @@
 # MegaGRRL-Desktop-Mini-USB
- I have been using the desktop version of MegaGRRL for 4 years. As my PCB drawing skills improve, I have the confidence to realize all my ideas and changes. This version is based on the Type-C version and includes a lot of practical modifications.  
+ I have been using the desktop version of MegaGRRL for 4 years. As my PCB drawing skills improve, I have the confidence to realize all my ideas and changes. This version is based on the Type-C version and includes a lot of practical modifications.Note that for convenience, I only modified the PCB and not the schematic.    
 The latest version: MegaGRRL Desktop DJ V0.5.  
 It has been hardware verified and can be used.  
 ## Improvements of Type-C version motherboard:  
@@ -25,7 +25,8 @@ It has been hardware verified and can be used.
 14. Add my silk screen art "Denjhang's OSHW"  
 15. Optional self-ejecting SD card slot or self-ejecting TF card slot, more flexible to choose the type of memory card, protecting the memory card while further improving the user experience.  
 16. Use "Mini560" high efficiency DC-DC step-down module to replace B0905/0505, it works very well so far, supports 9/12V input, and generates almost no heat. Mini560 can be easily purchased at Alex and is cheap.
-17. Use the correct PJ-306/3F07 headphone jack package to replace the incorrect package in the Type-C version.  
+17. Use the correct PJ-306/3F07 headphone jack package to replace the incorrect package in the Type-C version.
+18. Added keyboard connector. Can be used to connect Cherry switches, MegaDrive controllers, wireless remote controls, etc. It can also be connected to the top keyboard of the acrylic case.  
  ## To do  
 1. Design and make the acrylic shell, which is done by Xiaohao Studio (completed)  
 2. Design a new MegaGRRL-modular motherboard to completely separate the data and analog lines and reduce interference noise. (completed)  
