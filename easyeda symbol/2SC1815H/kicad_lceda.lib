@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2SC1815H
+#
+DEF 2SC1815H Q 0 40 N N 1 F N
+F0 "Q" 0 320 50 H V C CNN
+F1 "2SC1815H" 0 520 50 H V C CNN
+F2 "kicad_lceda:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" 0 120 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_753798.html" 0 -80 50 H I C CNN
+F4 "C713673" 0 -280 50 H I C CNN "SuppliersPartNumber"
+F5 "std:b47634b3801e46abb7ff55f15f705508" 0 -280 50 H I C CNN "uuid"
+DRAW
+P 4 1 1 6 0 -100 -30 -50 -60 -90 0 -100 F
+P 2 1 1 6 -100 90 -100 -90 N
+P 2 1 1 6 -100 -30 0 -100 N
+P 2 1 1 6 0 100 -100 30 N
+X E 2 0 -200 100 U 50 50 1 1 I 
+X C 3 0 200 100 D 50 50 1 1 I 
+X B 1 -200 0 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+# Mini_USB-B_5P-Female-TH_C46398
+#
+DEF Mini_USB-B_5P-Female-TH_C46398 USB 0 40 Y Y 1 F N
+F0 "USB" 0 405 50 H V C CNN
+F1 "Mini_USB-B_5P-Female-TH_C46398" 0 605 50 H V C CNN
+F2 "kicad_lceda:MINI-USB-TH_USB-MINI-2" 0 205 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_47402.html" 0 5 50 H I C CNN
+F4 "C46398" 0 -195 50 H I C CNN "SuppliersPartNumber"
+F5 "std:291765c3e5838ddcfd72f3167accee80" 0 -195 50 H I C CNN "uuid"
+DRAW
+S -200 300 200 -300 1 1 6 N
+X VCC 1 300 200 100 L 50 50 1 1 I 
+X D- 2 300 100 100 L 50 50 1 1 I 
+X D+ 3 300 0 100 L 50 50 1 1 I 
+X ID 4 300 -100 100 L 50 50 1 1 I 
+X GND 5 300 -200 100 L 50 50 1 1 I 
+X 0 0 -300 200 100 R 50 50 1 1 I 
+X 0 0 -300 -200 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

@@ -1,4 +1,4 @@
-21732721171987455
+21736161896222377
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60781,6 +60781,13 @@ CONN-TH_9P-P2.50_ZX-XH2.54-9PZZ
 9
 9
 Library
+MINI-USB-TH_USB-MINI-2
+
+
+0
+9
+6
+Library
 MINI560
 
 
@@ -60794,6 +60801,13 @@ MINI560DC-DC
 0
 8
 4
+Library
+USB-MINI-SMD_HX-MINI-5P-4J
+
+
+0
+9
+7
 MegaGRRLDesktop
 3,2
 <b>MOUNTING HOLE</b> 3.2 mm with drill center
